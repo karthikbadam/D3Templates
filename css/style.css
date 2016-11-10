@@ -1,0 +1,40 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    font-size: 0.8em;
+    background-color: white;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    display: inline-block;
+    border: 1px dotted #AAA;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.tick line {
+    opacity: 0.1;
+}
+
+.tick text {
+    fill: #AAA;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
